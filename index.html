@@ -48,21 +48,21 @@
     <div class="wrapper">
       <div class="textarea">
         JSON input
-        <textarea id="input"></textarea>
+        <textarea class="input"></textarea>
       </div>
       <div class="textarea">
         JSON string output
-        <textarea id="output"></textarea>
+        <textarea class="output"></textarea>
         <div class="button-wrapper">
-          <span id="done-liao">Copied to Clipboard!</span>
+          <span class="done-liao">Copied to Clipboard!</span>
         </div>
       </div>
       <div class="credit">Written by zhiyue.yi</div>
     </div>
     <script>
-      const input = document.querySelector("#input");
-      const output = document.querySelector("#output");
-      const doneLiao = document.querySelector("#done-liao");
+      const input = document.querySelector(".input");
+      const output = document.querySelector(".output");
+      const doneLiao = document.querySelector(".done-liao");
 
       input.addEventListener("input", (e) => {
         try {
